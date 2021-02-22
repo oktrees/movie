@@ -21,7 +21,7 @@ export default () => {
     <Container>
       <Header>
         <Title>영화소개 사이트</Title>
-        <Subtitle>Apollo, GraphQL을 사용하였습니다.</Subtitle>
+        <Subtitle>Apollo, GraphQL 테스트 페이지입니다.</Subtitle>
       </Header>
       {loading && <Loading>Loading...</Loading>}
       <Movies>
@@ -65,7 +65,7 @@ const Title = styled.h1`
 `;
 
 const Subtitle = styled.h3`
-  font-size: 35px;
+  font-size: 30px;
 `;
 
 const Loading = styled.div`
