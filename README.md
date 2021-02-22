@@ -14,21 +14,17 @@
 
 # INFO
 
-* 책 커버 디자인 사이트입니다
-* 관리자 로그인 기능
-* 관리자는 BOOKLIST 탭 게시판에 작업물을 게시, 수정, 삭제, 이미지 업로드를 할 수 있습니다.
-* 관리자는 CONTACT 탭에서 회사 소개 글을 수정할 수 있습니다. <br/>
-* 게시한 작업물들은 메인페이지에 carousel로 노출됩니다.<br/>
-
+* 영화정보 제공사이트 입니다.
+* 서버에서 openApi를 받아와서 Graphql로 재가공합니다. 
+* 프론트에서 react-apollo를 이용하여 서버와 통신합니다.
 
 # SKILL
 
 > ### FE 
-* js : react
+* react, react-apollo
 * css : styled-component
 * deployment : github-pages
 
 > ### BE
-* restApi : node-express, typescript
-* database : mysql-sequelize
+* node, typescript, graphql-yoga
 * deployment : aws EC2, RDS, Route53, Docker
